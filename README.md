@@ -3,6 +3,20 @@
 [![Help](http://img.shields.io/badge/master-help-8f8f8f.svg?style=flat)](https://www.odoo.com/forum/help-1)
 [![Nightly Builds](http://img.shields.io/badge/master-nightly-8f8f8f.svg?style=flat)](http://nightly.odoo.com/)
 
+The gov-ngo Branches Readme
+-------------------------
+
+All odoo S.A. Branches have a build in phone home functionality and show their branding on multiple places which is not suitable for most governmental-, official-, non governmental organisational- and even for projetcs of company and anybody who cares about the privacy of their users (internal and external).
+
+Often you have even to sign NDA's which state very clear, that no information is allowed to be given to a third party without prior consent etc. Unfortunately until now this requirements can not be met with the current odoo S.A. branches.
+
+Often debranding and non phoning home gets done by modules which need to be installed. They overwrite the given functionality from the original odoo S.A Branches.
+
+Problem: 
+If the module is not working or for any other reason not doing its job, the fall back would be always the build in Phone Home and Branding Functionality of Odoo S.A. - This is for us a No Go Situation. Therefore all codes of this kind need to get removed from the actual code base, without exception. The default should always be NO BRAND - NO PHONING HOME!
+
+Our goal is to create a non-branded and non-phoning back edition which is full compatible to odoo 9.0 as well as for odoo 8.0. Previous Versions will not be affected from this and will still contain a branding links and phoning back functionality.
+
 Odoo
 ----
 
