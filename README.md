@@ -6,18 +6,34 @@
 The gov-ngo Branches Readme
 -------------------------
 
-All odoo S.A. Branches have a build in phone home functionality and show their branding on multiple places which is not suitable for most governmental-, official-, non governmental organisational- and even for projetcs of company and anybody who cares about the privacy of their users (internal and external).
+All odoo S.A. Branches have a build in phone home functionality by default and show the odoo S.A. branding on multiple places in the frontend, which is not suitable for most governmental-, official-, non governmental organisational- and even for projetcs of companies and anybody who cares about the privacy of their users (internal and external).
 
-Often you have even to sign NDA's which state very clear, that no information is allowed to be given to a third party without prior consent etc. Unfortunately until now this requirements can not be met with the current odoo S.A. branches.
+Often NDA's needs to be signed, which state very clearly, that no information is allowed to be given to a third party without prior consent etc. Unfortunately until now this requirements can not be met with the current odoo S.A. branches.
 
-Often debranding and non phoning home gets done by modules which need to be installed. They overwrite the given functionality from the original odoo S.A Branches.
+Debranding and non phoning home deactivations usually get implemented by additional modules. They overwrite the given functionality from the original odoo S.A Branches and need to be installed separately.
 
 Problem: 
-If the module is not working or for any other reason not doing its job, the fall back would be always the build in Phone Home and Branding Functionality of Odoo S.A. - This is for us a No Go Situation. Therefore all codes of this kind need to get removed from the actual code base, without exception. The default should always be NO BRAND - NO PHONING HOME!
+If the module is not working or for any other reason not doing its job, the fall back would be always the build in Phone Home to Odoo S.A. and Branding Functionality of Odoo S.A. - This is for us a No-Go Situation! Therefore all code of this kind need to get removed entirely from the actual code base, without exception. 
+
+The default should always be NO BRAND - NO PHONING HOME!
 
 Our goal is to create a non-branded and non-phoning back edition which is full compatible to odoo 9.0 as well as for odoo 8.0. Previous Versions will not be affected from this and will still contain a branding links and phoning back functionality.
 
-Please report to us if you can find more places which contain phoning back functionality of any kind or Odoo S.A. branding of any kind which gets displayed to users. Branding which only affects the code stays as is (i.e. copyright notcies) according to AGPL v.3 / LGPL v.3
+Please report to us (issues) if you can find more places which contain phoning back functionality of any kind or Odoo S.A. branding of any kind which gets displayed to users in Versions 9 and 8). Thanks! 
+
+Branding which only affects the code stays as is (i.e. copyright notices) according to AGPL v.3 / LGPL v.3
+
+Beside that for many official use cases the systems used need to be accessible for people with disabilities. Also this is not the case with the standard odoo S.A. branches. 
+
+* http://www.g3ict.org/resource_center/country_profiles/G3ict_White_Paper_-_Accessibility_Policy_Making/Germany
+
+We will try to follow and implement the German Standards - which are one of the strongest in the world - 
+
+* https://de.wikipedia.org/wiki/Barrierefreie-Informationstechnik-Verordnung
+* http://www.barrierefreies-webdesign.de/bitv/bitv-2.0.html. 
+* http://www.barrierefreies-webdesign.de/wcag2/
+* http://www.bitvtest.de/bitvtest.html
+* http://www.chemnitzer-14.de/accessibility-checkliste/ 
 
 Odoo
 ----
