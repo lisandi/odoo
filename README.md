@@ -17,6 +17,8 @@ If the module is not working or for any other reason not doing its job, the fall
 
 Our goal is to create a non-branded and non-phoning back edition which is full compatible to odoo 9.0 as well as for odoo 8.0. Previous Versions will not be affected from this and will still contain a branding links and phoning back functionality.
 
+Please report to us if you can find more places which contain phoning back functionality of any kind or Odoo S.A. branding of any kind which gets displayed to users. Branding which only affects the code stays as is (i.e. copyright notcies) according to AGPL v.3 / LGPL v.3
+
 Odoo
 ----
 
